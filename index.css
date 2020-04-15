@@ -131,7 +131,7 @@ input, select {
 nav {
     width: 100%;
     height: 100px;
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(201, 201, 201);
     margin: 0px;
     padding: 0px;
     
@@ -167,8 +167,62 @@ ul li a:hover {
 }
 
 .img-bg {
-    width: 480;
-    height: 180;
+    max-width: 1920;
+    max-height: 1080;
     background-image: url('https://i.imgur.com/RQOEsXd.jpg');
+}
+
+.contacticon {
+    margin-top: 0px;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    height: 64px;
+    width: 64px;
+}
+
+.yticon {
+    margin-top: 0px;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    width: 96px;
+    height: 64px;
+}
+
+.twittericon {
+    margin-top: 0px;
+    position: absolute;
+    left: 615px;
+    top: 30px;
+    height: 64px;
+    width: 64px;
+}
+
+.twitchicon {
+    margin-top: 0px;
+    position: absolute;
+    left: 840px;
+    top: 30px;
+    height: 64px;
+    width: 64px;
+}
+
+.instaicon {
+    margin-top: 0px;
+    position: absolute;
+    left: 1090px;
+    top: 30px;
+    height: 64px;
+    width: 64px;
+}
+
+.thingsicon {
+    margin-top: 0px;
+    position: absolute;
+    left: 1370px;
+    top: 30px;
+    height: 64px;
+    width: 64px;
 }
 

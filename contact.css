@@ -105,12 +105,13 @@ input, select {
 .page-2-h2 {
     font-size: 60px;
     text-align: center;
+    -webkit-text-stroke: white;
 }
 
 nav {
     width: 100%;
     height: 100px;
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(201, 201, 201);
     margin: 0px;
     padding: 0px;
     
@@ -135,7 +136,7 @@ ul li a {
     font-size: 28px;
     font-family: sans-serif;
     margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 690px;
     padding: 30px;  
     color: #1e1e1e
     
@@ -149,5 +150,44 @@ ul li a:hover {
     width: 360;
     height: 190;
     background-image: url('https://i.imgur.com/RQOEsXd.jpg');
+}
+
+.emailinputcontact {
+    position: absolute;
+    left: 740px;
+    top: 300px;
+    width: 400px;
+}
+
+.dateinputcontact {
+    position: absolute;
+    left: 740px;
+    top: 350px;
+    width: 400px;
+}
+
+.submitcontact {
+    position: absolute;
+    left: 860px;
+    top: 650px;
+    width: 200px;
+}
+
+.messagetextcontact {
+    position: absolute;
+    left: 650px;
+    top: 400px;
+    width: 600px;
+    height: 200px;
+    resize: horizontal;
+}
+
+.homeicon {
+    margin-top: 0px;
+    position: absolute;
+    left: 890px;
+    top: 30px;
+    height: 64px;
+    width: 64px;
 }
 
