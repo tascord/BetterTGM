@@ -136,7 +136,7 @@ ul li a {
     font-size: 28px;
     font-family: sans-serif;
     margin-top: 100px;
-    margin-left: 690px;
+    margin-left: 701px;
     padding: 30px;  
     color: #1e1e1e
     
@@ -189,5 +189,37 @@ ul li a:hover {
     top: 30px;
     height: 64px;
     width: 64px;
+}
+
+.weblogo {
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    left: 1816px;
+    top: 30px;
+}
+
+.homebuttonlist {
+    list-style: none;
+    display: inline-block;
+}
+
+.homebutton {
+    text-decoration: none;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin-left: 105px;
+    padding: 30px;  
+    color: #1e1e1e;
+    position: absolute;
+    margin-top: 0px;
+    top: 0px;
+    left: 1581px;
+    float: right;
+    
+}
+
+.homebutton:hover {
+    color: rgb(173, 58, 58);
 }
 
