@@ -490,4 +490,25 @@ ul li a:hover {
         top: 30px;
     }
 
+    .discordwidget {
+        position: absolute;
+        top: 94px;
+    }
+
+    .mostrecentupload {
+        position: absolute;
+        left: 1064px;
+        top: 457px;
+        width: 854px;
+        height: 480px;
+    }
+
+    .outlinedbox {
+        outline: 2px dotted yellow;
+        outline-width: 30px;
+        position: absolute;
+        top: 40px;
+        left: 20px;
+    }
+
 }
