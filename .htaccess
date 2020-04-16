@@ -1,4 +1,7 @@
+Options +FollowSymLinks -MultiViews
 ErrorDocument 404 /404.html
+
+DirectoryIndex index.html
 
 # mod_rewrite starts here
 
@@ -21,3 +24,9 @@ RewriteRule (.*)index\.(php|html)$ /$1 [R=301,L]
 # Here we actually show the page that has the .html extension
 
 RewriteRule ^(.*)$ $1.html [NC, L]
+
+# 404
+
+RewriteCond %{REQUEST_URI} \.html$
+RewriteCond %{QUERY_STRING} !rw=1 [NC]
+RewriteRule ^ - [R=404]
