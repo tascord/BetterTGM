@@ -493,6 +493,7 @@ ul li a:hover {
     .discordwidget {
         position: absolute;
         top: 94px;
+        display: none;
     }
 
     .mostrecentupload {
@@ -501,6 +502,7 @@ ul li a:hover {
         top: 457px;
         width: 854px;
         height: 480px;
+        display: none;
     }
 
     .clickable-matthewtgm {
