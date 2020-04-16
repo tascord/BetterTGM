@@ -16,7 +16,7 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^index\.html$ / [R=301,L]
 
-RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+RewriteRule (.*)index.html$ /$1 [R=301,L]
 
 # Here we actually show the page that has the .html extension
 
