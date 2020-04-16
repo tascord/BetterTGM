@@ -497,26 +497,22 @@ ul li a:hover {
 
     .mostrecentupload {
         position: absolute;
-        left: 1064px;
-        top: 457px;
+        left: 293px;
+        top: 356px;
         width: 854px;
         height: 480px;
     }
 
-    .outlinedbox {
-        outline: 2px dotted yellow;
-        outline-width: 30px;
-        position: absolute;
-        top: 40px;
-        left: 20px;
-    }
-
     .clickable-matthewtgm {
         color: rgb(0, 0, 0);
+        text-decoration: none;
         font-size: 55px;
         margin: 0px;
         text-align: center;
         -webkit-text-stroke: 2px white;
+        position: absolute;
+        top: 101px;
+        left: 770px;
     }
 
 }
