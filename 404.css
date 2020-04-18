@@ -371,6 +371,18 @@ ul li a:hover {
       text-align: center;
       -webkit-text-stroke: 2px white;
     }
+
+    .page-2-h2 {
+        color: rgb(0, 0, 0);
+        font-size: 55px;
+        position: absolute;
+        top: 312px;
+        left: 849px;
+        margin: 0px;
+        text-align: center;
+        -webkit-text-stroke: 2px white;
+        -webkit-text-stroke-width: 1px;
+      }
     
     .main-page-paragraph {
       color: brown;
@@ -410,7 +422,7 @@ ul li a:hover {
         font-size: 28px;
         font-family: sans-serif;
         margin-top: 100px;
-        margin-left: 105px;
+        margin-left: 750px;
         padding: 30px;  
         color: #1e1e1e
         
@@ -509,6 +521,14 @@ ul li a:hover {
         position: absolute;
         top: 40px;
         left: 20px;
+    }
+
+    .homeicon {
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        top: 30px;
+        left: 932px;
     }
 
 }
