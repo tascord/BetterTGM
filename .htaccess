@@ -31,3 +31,7 @@ RewriteRule ^(.*)$ $1.html [NC, L]
 RewriteCond %{REQUEST_URI} \.html$
 RewriteCond %{QUERY_STRING} !rw=1 [NC]
 RewriteRule ^ - [R=404]
+
+#Rewrite
+
+RewriteRule ^([0-9]+).html /home [QSA,L]
