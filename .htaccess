@@ -1,6 +1,5 @@
 Options +FollowSymLinks -MultiViews
 redirect index.html home.html
-Redirect /gaming.html https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ErrorDocument 404 /404.html
 
 DirectoryIndex index.html
