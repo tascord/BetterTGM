@@ -474,6 +474,7 @@ ul li a:hover {
         left: 0px;
         margin: 0px;
         padding: 0px;
+        display: block;
         
     }
     
@@ -498,6 +499,7 @@ ul li a:hover {
         margin-top: 100px;
         margin-left: 105px;
         padding: 0px;  
+        display: inline;
         color: #1e1e1e
         
     }
