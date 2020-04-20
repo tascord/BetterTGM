@@ -171,7 +171,6 @@ ul li a:hover {
 .img-bg {
     max-width: 100%;
     max-height: 100%;
-    background-image: url('https://i.imgur.com/RQOEsXd.jpg');
 }
 
 .contacticon {
@@ -312,8 +311,6 @@ ul li a:hover {
     .img-bg {
         position: absolute;
         right: 1300px;
-        background-repeat: no-repeat;
-        background-image: url('https://i.imgur.com/RQOEsXd.jpg');
 }
 
 .main-page-h1 {
@@ -359,7 +356,7 @@ ul li a:hover {
         top: 130px;
         margin: 0px;
         text-align:  center;
-        -webkit-text-stroke: 2px white;
+        -webkit-text-stroke: 1px white;
     }
     
     .main-page-h2 {
@@ -369,7 +366,7 @@ ul li a:hover {
       top: 310px;
       margin: 0px;
       text-align: center;
-      -webkit-text-stroke: 2px white;
+      -webkit-text-stroke: 1px white;
     }
     
     .main-page-paragraph {
@@ -411,7 +408,7 @@ ul li a:hover {
         font-family: sans-serif;
         margin-top: 100px;
         margin-left: 105px;
-        padding: 30px;  
+        padding: 0px;  
         color: #1e1e1e
         
     }
@@ -425,14 +422,14 @@ ul li a:hover {
         max-height: 100%;
         position: absolute;
         left: 0;
-        background-image: url('https://i.imgur.com/RQOEsXd.jpg');
+        background-color: rgb(128, 128, 128);
     }
     
     .contacticon {
         margin-top: 0px;
         position: absolute;
         top: 30px;
-        left: 150px;
+        left: 121px;
         height: 64px;
         width: 64px;
     }
@@ -440,7 +437,7 @@ ul li a:hover {
     .yticon {
         margin-top: 0px;
         position: absolute;
-        left: 410px;
+        left: 311px;
         top: 30px;
         width: 96px;
         height: 64px;
@@ -449,7 +446,7 @@ ul li a:hover {
     .twittericon {
         margin-top: 0px;
         position: absolute;
-        left: 685px;
+        left: 545px;
         top: 30px;
         height: 64px;
         width: 64px;
@@ -458,7 +455,7 @@ ul li a:hover {
     .twitchicon {
         margin-top: 0px;
         position: absolute;
-        left: 940px;
+        left: 730px;
         top: 30px;
         height: 64px;
         width: 64px;
@@ -467,38 +464,52 @@ ul li a:hover {
     .instaicon {
         margin-top: 0px;
         position: absolute;
-        left: 1220px;
+        left: 941px;
         top: 30px;
         height: 64px;
         width: 64px;
+    }
+
+    .patreonicon {
+        width: 95px;
+        height: 64px;
+        position: absolute;
+        left: 1146px;
+        top: 30px;
+    }
+
+    .discordicon {
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        left: 1365px;
+        top: 30px;
     }
     
     .thingsicon {
         margin-top: 0px;
         position: absolute;
-        left: 1530px;
+        left: 1601px;
         top: 30px;
         height: 64px;
         width: 64px;
-    }
-
-    .weblogo {
-        position: absolute;
-        height: 64px;
-        width: 64px;
-        left: 1816px;
-        top: 30px;
     }
 
     .discordwidget {
+        border-radius: 15px;
+        border: 4px solid black;
+        width: 450px;
         position: absolute;
-        top: 93px;
+        top: 800px;
+        left: 700px;
     }
 
     .mostrecentupload {
+        border-radius: 10px;
+        border: 6px ridge black;
         position: absolute;
-        left: 1064px;
-        top: 456px;
+        left: 502px;
+        top: 225px;
         width: 854px;
         height: 480px;
     }
@@ -509,7 +520,7 @@ ul li a:hover {
         font-size: 55px;
         margin: 0px;
         text-align: center;
-        -webkit-text-stroke: 2px white;
+        -webkit-text-stroke: 1px white;
         position: absolute;
         top: 101px;
         left: 771px;
@@ -521,5 +532,4 @@ ul li a:hover {
         top: 97px;
         left: 775px;
     }
-
 }

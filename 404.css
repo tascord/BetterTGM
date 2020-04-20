@@ -171,7 +171,7 @@ ul li a:hover {
 .img-bg {
     max-width: 100%;
     max-height: 100%;
-    background-image: url('https://i.imgur.com/RQOEsXd.jpg');
+    background-image: url('img/background.png');
 }
 
 .contacticon {
@@ -313,7 +313,7 @@ ul li a:hover {
         position: absolute;
         right: 1300px;
         background-repeat: no-repeat;
-        background-image: url('https://i.imgur.com/RQOEsXd.jpg');
+        background-image: url('img/background.png');
 }
 
 .main-page-h1 {
@@ -437,7 +437,7 @@ ul li a:hover {
         max-height: 100%;
         position: absolute;
         left: 0;
-        background-image: url('https://i.imgur.com/RQOEsXd.jpg');
+        background-image: url('img/background.png');
     }
     
     .contacticon {
