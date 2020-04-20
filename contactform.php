@@ -1,13 +1,13 @@
 <?php
 $visitor_email = $_POST['email'];
-$visitor_email = $_POST['date'];
+$date = $_POST['date'];
 $message = $_POST['message'];
 
 $email_from = 'no-reply@matthewtgm.ga'
 $email_subject = "new contact form submission";
-$email_body = "Email: $name\n".
-                "Date Of Submission: $date\n"
-                    "Message: $message"
+$email_body = "Email: ".$visitor_email"\n"
+                "Date Of Submission: ".$date"\n"
+                    "Message: ".$message"\n"
 
 
 $to = "matthewtgm100@gmail.com";
