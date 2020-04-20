@@ -102,9 +102,21 @@ input, select {
 }
 
 
-.page-2-h2 {
-    font-size: 60px;
-    text-align: center;
+
+
+
+
+
+
+
+
+
+.img-bg {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(128, 128, 128);
 }
 
 nav {
@@ -122,70 +134,29 @@ ul li a {
     font-size: 28px;
     font-family: sans-serif;
     margin-top: 100px;
-    margin-left: 852px;
-    padding: 30px;  
-    color: #1e1e1e
+    margin-left: 105px;
+    padding: 0px;  
+    color: #1e1e1e;
 }
 
 ul li a:hover {
     color: rgb(173, 58, 58);
 }
 
-.img-bg {
-    max-width: 100%;
-    max-height: 100%;
+.video {
     position: absolute;
-    left: 0;
-    background-color: rgb(128, 128, 128);
-}
-
-.homeicon {
-    margin-top: 0px;
-    position: absolute;
-    left: 890px;
-    top: 30px;
-    height: 64px;
-    width: 64px;
-}
-
-.thumbnail-potatopack {
-    position: absolute;
-    top: 174px;
-    left: 101px;
-    width: 720px;
-    height: 360px;
+    left: 301px;
+    top: 90px;
+    border-radius: 10px;
     border: 6px solid black;
-    border-radius: 20px;
 }
 
-.clickable-matthewtgm {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 55px;
-    margin: 0px;
-    text-align: center;
-    -webkit-text-stroke: 1px white;
+.downloadbutton {
     position: absolute;
-    top: 102px;
-    left: 744px;
+    left: 511px;
+    top: 610px;
 }
 
-.clickable-matthewtgm:hover {
-    cursor:pointer;
-    float: right;
-    top: 97px;
-    left: 775px;
-}
-
-.text-potatopack {
-    font-size: 44px;
-    text-decoration: none;
-    color: #1e1e1e;
-    position: absolute;
-    left: 90px;
-    top: 562px;
-}
-
-.text-potatopack:hover {
-    color: rgb(129, 41, 41);
+.homebutton {
+    display: none;
 }

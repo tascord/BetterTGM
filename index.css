@@ -104,6 +104,8 @@ input, select {
 
 
 
+
+
 .main-page-h1 {
     color: rgb(0, 0, 0);
     font-size: 60px;
@@ -493,10 +495,10 @@ ul li a:hover {
     }
     
     ul li a {
+        margin-top: 100px;
         text-decoration: none;
         font-size: 28px;
         font-family: sans-serif;
-        margin-top: 100px;
         margin-left: 105px;
         padding: 0px;  
         display: inline;
@@ -622,14 +624,5 @@ ul li a:hover {
         float: right;
         top: 97px;
         left: 775px;
-    }
-
-    .footer {
-        position: fixed;
-        left: 0px;
-        bottom: 0px;
-        width: 100%;
-        background-color: #1e1e1e;
-        text-align: center;
     }
 }
