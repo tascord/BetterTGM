@@ -498,12 +498,11 @@ ul li a:hover {
         text-decoration: none;
         font-size: 28px;
         font-family: sans-serif;
-        margin-top: 90px;
-        margin-left: 92px;
+        margin-top: 91px;
+        margin-left: 93px;
         padding: 0px;  
         display: inline;
-        color: #1e1e1e
-        
+        color: #1e1e1e; 
     }
     
     ul li a:hover {
@@ -591,7 +590,7 @@ ul li a:hover {
     .musicicon {
         margin-top: 0px;
         position: absolute;
-        left: 1701px;
+        left: 1702 px;
         top: 30px;
         width: 64px;
         height: 64px;
