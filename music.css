@@ -103,17 +103,8 @@ input, select {
 
 
 
-
-
-
-
-.page-2-h2 {
-    font-size: 60px;
-    text-align: center;
-}
-
 nav {
-    width: 1920px;
+    width: 1891px;
     height: 100px;
     background-color: rgb(201, 201, 201);
     position: absolute;
@@ -144,54 +135,27 @@ ul li a:hover {
     background-color: rgb(128, 128, 128);
 }
 
-.homeicon {
-    margin-top: 0px;
+.personal-img {
     position: absolute;
-    left: 890px;
-    top: 30px;
-    height: 64px;
-    width: 64px;
-}
-
-.thumbnail-potatopack {
-    position: absolute;
-    top: 174px;
-    left: 101px;
-    width: 720px;
-    height: 360px;
+    top: 181px;
+    left: 131px;
     border: 6px solid black;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
-.clickable-matthewtgm {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+.personal-text {
     font-size: 55px;
-    margin: 0px;
-    text-align: center;
-    -webkit-text-stroke: 1px white;
     position: absolute;
-    top: 102px;
-    left: 744px;
-}
-
-.clickable-matthewtgm:hover {
-    cursor:pointer;
-    float: right;
-    top: 97px;
-    left: 775px;
-}
-
-.text-potatopack {
-    font-size: 44px;
-    text-decoration: none;
+    top: 522px;
+    left: 148px;
     color: #1e1e1e;
-    position: absolute;
-    left: 202px;
-    top: 562px;
+    text-decoration: none;
     white-space: nowrap;
 }
-
-.text-potatopack:hover {
+.personal-text:hover {
     color: rgb(129, 41, 41);
+}
+.homeicon {
+    width: 64px;
+    height: 64px;
 }

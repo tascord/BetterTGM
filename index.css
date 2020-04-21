@@ -495,11 +495,11 @@ ul li a:hover {
     }
     
     ul li a {
-        margin-top: 100px;
         text-decoration: none;
         font-size: 28px;
         font-family: sans-serif;
-        margin-left: 105px;
+        margin-top: 90px;
+        margin-left: 92px;
         padding: 0px;  
         display: inline;
         color: #1e1e1e
@@ -522,7 +522,7 @@ ul li a:hover {
         margin-top: 0px;
         position: absolute;
         top: 30px;
-        left: 121px;
+        left: 111px;
         height: 64px;
         width: 64px;
     }
@@ -530,7 +530,7 @@ ul li a:hover {
     .yticon {
         margin-top: 0px;
         position: absolute;
-        left: 311px;
+        left: 292px;
         top: 30px;
         width: 96px;
         height: 64px;
@@ -539,7 +539,7 @@ ul li a:hover {
     .twittericon {
         margin-top: 0px;
         position: absolute;
-        left: 545px;
+        left: 505px;
         top: 30px;
         height: 64px;
         width: 64px;
@@ -548,7 +548,7 @@ ul li a:hover {
     .twitchicon {
         margin-top: 0px;
         position: absolute;
-        left: 730px;
+        left: 680px;
         top: 30px;
         height: 64px;
         width: 64px;
@@ -557,7 +557,7 @@ ul li a:hover {
     .instaicon {
         margin-top: 0px;
         position: absolute;
-        left: 941px;
+        left: 882px;
         top: 30px;
         height: 64px;
         width: 64px;
@@ -567,7 +567,7 @@ ul li a:hover {
         width: 95px;
         height: 64px;
         position: absolute;
-        left: 1146px;
+        left: 1074px;
         top: 30px;
     }
 
@@ -575,17 +575,26 @@ ul li a:hover {
         width: 64px;
         height: 64px;
         position: absolute;
-        left: 1365px;
+        left: 1275px;
         top: 30px;
     }
     
     .thingsicon {
         margin-top: 0px;
         position: absolute;
-        left: 1601px;
+        left: 1502px;
         top: 30px;
         height: 64px;
         width: 64px;
+    }
+
+    .musicicon {
+        margin-top: 0px;
+        position: absolute;
+        left: 1701px;
+        top: 30px;
+        width: 64px;
+        height: 64px;
     }
 
     .discordwidget {
