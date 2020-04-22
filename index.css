@@ -97,39 +97,103 @@ input, select {
     vertical-align:middle;
 }
 
-
-
-
-
-
-
-#container {
-    min-height: 100%;
-}
-
-#content {
-    overflow: auto;
-    padding-bottom: 100px;
-}
-
-#footer {
-    background-color: #000;
+.btn-envelope {
+    width: 56px;
+    height: 32px;
     position: relative;
-    height: 100px;
-    clear: both;
+    top: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
-.footer-text {
+.btn-phone {
+    width: 38px;
+    height: 48px;
     position: relative;
-    text-align: center;
-    color: rgb(189, 189, 189);
+    top: 20px;
+    border: 2px solid white;
+    border-radius: 13px;
 }
 
-.footer-text-border {
+
+
+
+
+
+
+/*  ### FOOTER ### */
+
+.footer {
+    background: rgb(88, 88, 88);
+    color: rgb(168, 168, 168);
+    height: 300px;
+    position: relative;
+    top: 1330px;
+}
+
+.footer .footer-content {
+    height: 250px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.footer .footer-content .footer-section .contact {
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+
+.footer .footer-content .footer-section .contact span {
+    font-size: ;
+    color: rgb(218, 218, 218)
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+    color: white;
+}
+
+.footer .footer-content .about h1 span {
+    font-size: 25px;
+    color: lightblue;
+}
+
+.footer .footer-content .about h1 {
+    font-size: 25px;
+    color: gold;
+}
+
+.footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: rgb(219, 211, 211);
+
+    transition: all 0.5s ease-in;
+}
+
+.footer .footer-content .links ul a:hover {
+    color: rgb(255, 78, 78);
+
+    transition: all 0.5s ease-in;
+}
+
+.footer .footer-bottom {
+    background: rgb(71, 71, 71);
+    color: rgb(145, 145, 145);
+    height: 50px;
     width: 100%;
-    position: relative;
-    top: 80px;
-    border: 2px solid rgb(41, 41, 41);
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    border: 1px solid rgb(129, 129, 129)
 }
 
 .img-bg, body {
