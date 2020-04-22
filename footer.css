@@ -1,3 +1,42 @@
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: red;
+}
+
+#footer {
+    background-color: #000;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+.footer-text {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: rgb(255, 255, 255)
+}
+
+
+
+
+
+
+
+
+
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -113,6 +152,7 @@ input, select {
 }
 
 #footer {
+    display: flex;
     background-color: #000;
     position: relative;
     height: 100px;
@@ -136,10 +176,6 @@ input, select {
     height: 100%;
     background-color: rgb(128, 128, 128);
 }
-
-
-
-
 
 
 
@@ -212,6 +248,10 @@ ul li a {
 
 ul li a:hover {
     color: rgb(173, 58, 58);
+}
+
+.img-bg, body {
+    height: 100%;
 }
 
 .contacticon {
@@ -345,6 +385,14 @@ ul li a:hover {
     
     ul li a:hover {
         color: rgb(173, 58, 58);
+    }
+    
+    .img-bg {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        left: 0;
+        background-color: rgb(128, 128, 128);
     }
     
     .contacticon {
@@ -507,6 +555,7 @@ ul li a:hover {
         margin: 0px;
         padding: 0px;
         display: block;
+        
     }
     
     ul {
@@ -532,14 +581,18 @@ ul li a:hover {
         padding: 0px;  
         display: inline;
         color: #1e1e1e; 
-
-        transition: all 0.5s ease-in;
     }
     
     ul li a:hover {
         color: rgb(173, 58, 58);
-
-        transition: all 0.5s ease-in;
+    }
+    
+    .img-bg {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        left: 0;
+        background-color: rgb(128, 128, 128);
     }
     
     .contacticon {
@@ -547,15 +600,8 @@ ul li a:hover {
         position: absolute;
         top: 30px;
         left: 111px;
-        background-image: url(img/icons/Contact.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .contacticon:hover {
-        background-image: url(img/icons/contact-hover.png);
-
-        transition: all 0.5s ease-in;
+        height: 64px;
+        width: 64px;
     }
     
     .yticon {
@@ -563,15 +609,8 @@ ul li a:hover {
         position: absolute;
         left: 292px;
         top: 30px;
-        background-image: url(img/icons/YouTube.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .yticon:hover {
-        background-image: url(img/icons/YouTube-hover.png);
-
-        transition: all 0.5s ease-in;
+        width: 96px;
+        height: 64px;
     }
     
     .twittericon {
@@ -579,15 +618,8 @@ ul li a:hover {
         position: absolute;
         left: 505px;
         top: 30px;
-        background-image: url(img/icons/Twitter.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .twittericon:hover {
-        background-image: url(img/icons/Twitter-hover.png);
-
-        transition: all 0.5s ease-in;
+        height: 64px;
+        width: 64px;
     }
     
     .twitchicon {
@@ -595,15 +627,8 @@ ul li a:hover {
         position: absolute;
         left: 680px;
         top: 30px;
-        background-image: url(img/icons/Twitch.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .twitchicon:hover {
-        background-image: url(img/icons/Twitch-hover.png);
-
-        transition: all 0.5s ease-in;
+        height: 64px;
+        width: 64px;
     }
     
     .instaicon {
@@ -611,45 +636,24 @@ ul li a:hover {
         position: absolute;
         left: 882px;
         top: 30px;
-        background-image: url(img/icons/Instagram.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .instaicon:hover {
-        background-image: url(img/icons/Instagram-hover.png);
-
-        transition: all 0.5s ease-in;
+        height: 64px;
+        width: 64px;
     }
 
     .patreonicon {
+        width: 95px;
+        height: 64px;
         position: absolute;
         left: 1074px;
         top: 30px;
-        background-image: url(img/icons/patreon.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .patreonicon:hover {
-        background-image: url(img/icons/patreon-hover.png);
-
-        transition: all 0.5s ease-in;
     }
 
     .discordicon {
+        width: 64px;
+        height: 64px;
         position: absolute;
         left: 1275px;
         top: 30px;
-        background-image: url(img/icons/discord.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .discordicon:hover {
-        background-image: url(img/icons/discord-hover.png);
-
-        transition: all 0.5s ease-in;
     }
     
     .thingsicon {
@@ -657,32 +661,17 @@ ul li a:hover {
         position: absolute;
         left: 1502px;
         top: 30px;
-        background-image: url(img/icons/videothings.png);
-
-        transition: all 0.5s ease-in;
-    }
-
-    .thingsicon:hover {
-        background-image: url(img/icons/videothings-hover.png);
-
-        transition: all 0.5s ease-in;
+        height: 64px;
+        width: 64px;
     }
 
     .musicicon {
         margin-top: 0px;
         position: absolute;
-        left: 1511px;
+        left: 1711px;
         top: 30px;
-        background-image: url(img/icons/YouTube.png.png);
-
-        
-        transition: all 0.5s ease-in;
-    }
-
-    .musicicon:hover {
-        background-image: url(img/icons/music-hover.png);
-        
-        transition: all 0.5s ease-in;
+        width: 64px;
+        height: 64px;
     }
 
     .discordwidget {
@@ -714,8 +703,6 @@ ul li a:hover {
         position: absolute;
         top: 101px;
         left: 771px;
-
-        transition: all 0.1s ease-in-out;
     }
 
     .clickable-matthewtgm:hover {
@@ -723,7 +710,22 @@ ul li a:hover {
         float: right;
         top: 97px;
         left: 775px;
+    }
 
-        transition: all 0.1s ease-in-out;
+    #container {
+        min-height: 100%;
+    }
+    
+    #main {
+        overflow: auto;
+        padding-bottom: 100px;
+    }
+    
+    #footer {
+        background-color: #000;
+        position: relative;
+        height: 100px;
+        margin-top: -100px;
+        clear: both;
     }
 }
