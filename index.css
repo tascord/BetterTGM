@@ -241,7 +241,7 @@ input, select {
 }
 
 nav {
-    width: 100%;
+    width: 1878px;
     height: 100px;
     background-color: rgb(175, 175, 175);
     position: absolute;
@@ -374,7 +374,7 @@ ul li a:hover {
     }
     
     nav {
-        width: 1920px;
+        width: 1878px;
         height: 100px;
         background-color: rgb(175, 175, 175);
         position: absolute;
@@ -565,7 +565,7 @@ ul li a:hover {
     }
     
     nav {
-        width: 1920px;
+        width: 1878px;
         height: 100px;
         background-color: rgb(175, 175, 175);
         position: absolute;
@@ -801,7 +801,7 @@ ul li a:hover {
     }
     
     nav {
-        width: 1920px;
+        width: 1878px;
         height: 100px;
         background-color: rgb(175, 175, 175);
         position: absolute;

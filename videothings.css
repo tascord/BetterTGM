@@ -115,7 +115,7 @@ input, select {
 nav {
     width: 1920px;
     height: 100px;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(175, 175, 175);
     position: absolute;
     left: 0px;
     margin: 0px;
@@ -130,10 +130,14 @@ ul li a {
     margin-left: 852px;
     padding: 30px;  
     color: #1e1e1e;
+
+    transition: all 0.2s ease-in;
 }
 
 ul li a:hover {
     color: rgb(173, 58, 58);
+
+    transition: all 0.2s ease-in;
 }
 
 .img-bg {
@@ -173,6 +177,8 @@ ul li a:hover {
     position: absolute;
     top: 102px;
     left: 744px;
+
+    transition: all 0.2s ease-in;
 }
 
 .clickable-matthewtgm:hover {
@@ -180,6 +186,8 @@ ul li a:hover {
     float: right;
     top: 97px;
     left: 775px;
+
+    transition: all 0.2s ease-in;
 }
 
 .text-potatopack {
@@ -190,8 +198,12 @@ ul li a:hover {
     left: 202px;
     top: 562px;
     white-space: nowrap;
+
+    transition: all 0.2s ease-in;
 }
 
 .text-potatopack:hover {
     color: rgb(129, 41, 41);
+
+    transition: all 0.2s ease-in;
 }

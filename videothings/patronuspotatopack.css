@@ -120,7 +120,7 @@ input, select {
 }
 
 nav {
-    width: 1920px;
+    width: 1878px;
     height: 100px;
     background-color: rgb(201, 201, 201);
     position: absolute;
@@ -130,6 +130,8 @@ nav {
 }
 
 ul li a {
+    position: relative;
+    left: 800px;
     text-decoration: none;
     font-size: 28px;
     font-family: sans-serif;
@@ -137,26 +139,31 @@ ul li a {
     margin-left: 105px;
     padding: 0px;  
     color: #1e1e1e;
+
+    transition: all 0.2s ease-in;
 }
 
 ul li a:hover {
     color: rgb(173, 58, 58);
+
+    transition: all 0.2s ease-in;
 }
 
 .video {
     position: absolute;
-    left: 301px;
-    top: 90px;
+    left: 501px;
+    top: 120px;
     border-radius: 10px;
     border: 6px solid black;
 }
 
 .downloadbutton {
     position: absolute;
-    left: 511px;
-    top: 610px;
+    left: 671px;
+    top: 631px;
 }
 
 .homebutton {
-    display: none;
+    position: relative;
+    left: 10px;
 }
