@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Live Sub Counter</title>
+		<link rel="shortcut icon"  type="image/png" href="img/favicon.png">
+		<meta charset="UTF-8">
+		<meta name="description" content="Live Sub Counter • MatthewTGM">
+		<meta name="keywords" content="youtube,subscriber,live,live-subscriber">
+		<meta name="author" content="MatthewTGM">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="subcounter.css">
+	</head>
+	<body class="bg">
+
+		<nav>
+			<ul>
+				<li><a href="home">Home</a></li>
+				<li><a href="home"><img src="img/icons/home.png"></a></li>
+			</ul>
+		</nav>
+
+		<center>
+
+			<h1 class="site_heading">Live Sub Counter</h1>
+
+			<form class="form-inline">
+				<input type="text" class="channel_id-btn" id="channel_id" placeholder="Channel ID...">
+				<input type="button" class="submit-btn" onclick="result(document.getElementById('channel_id').value)" value="Count">
+			</form>
+
+			<div class="main_content">
+				<div id="channel_logo" class="channellogo"></div>
+				<span id="channel_name" class="channelname"></span><br>
+				<span id="sub_count" class="subcount"><p id="subs" class="sub_count-text"></p></span>
+			</div>
+
+		</center>
+		
+		<script src="subcounter.js"></script>
+	</body>
+</html>
