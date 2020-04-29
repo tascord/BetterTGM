@@ -103,8 +103,20 @@
     border-radius: 15px;
 }
 
+
+
+
+
+
+
+
 .background {
 	background-image: url(background.jpg)
+}
+
+.password {
+    position: relative;
+    top: 60px;
 }
 
 

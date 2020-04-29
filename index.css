@@ -115,6 +115,14 @@ input, select {
     border-radius: 13px;
 }
 
+.secret-btn {
+    position: relative;
+    top: 600px;
+    background-color: rgb(136, 136, 136);
+    width: 32px;
+    height: 32px;
+}
+
 
 
 
