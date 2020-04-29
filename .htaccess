@@ -35,3 +35,11 @@ RewriteRule ^ - [R=404]
 #Rewrite
 
 RewriteRule ^([0-9]+).html /home [QSA,L]
+
+#Hide Home from url
+
+RewriteCond %{REQUEST_URI} !^matthewtgm.ga/home [NC]
+RewriteRule ^example.com/(.*)$ matthewtgm.ga/$1 [L]
+
+RewriteCond %{REQUEST_URI} !^matthewtgm.ga/private/happygoluckyfuntime [NC]
+RewriteRule ^example.com/(.*)$ matthewtgm.ga/happygoluckyfuntime/$1 [L]
