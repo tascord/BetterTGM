@@ -171,7 +171,7 @@ ul li a:hover {
 .img-bg {
     max-width: 100%;
     max-height: 100%;
-    background-image: url('img/background.png');
+    background-image: rgb(128, 128, 128);
 }
 
 .contacticon {
