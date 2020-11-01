@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Styling -->
+    <link rel="stylesheet" href="/p/style/main.css">
+    <link rel="stylesheet" href="/p/style/home.css">
+
+    <!-- Scripts -->
+    <script src="/p/scripts/themes.js"></script>
+    <script src="/p/scripts/projects.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://kit.fontawesome.com/7c108ace9f.js" crossorigin="anonymous"></script>
+
+    <!-- Title -->
+    <title>Home • MatthewTGM</title>
+
+</head>
+<body class="blue" onl>
+
+    <div class="navigation">
+
+        <div class="logo">
+
+            <!-- <img src="/p/images/Matthew.jpg" alt="MatthewTGM"> -->
+            <h2><a href="/">MatthewTGM</a></h2>
+        </div>
+
+        <ul class="links">
+            
+            <!-- Video Platforms -->
+            <li><a href="https://youtube.com/matthewtgm" target="_blank">YouTube</a></li>
+            <li><a href="https://twitch.tv/matthewtgm_yt" target="_blank">Twitch</a></li>
+
+            <!-- Social Medias -->
+            <li><a href="https://twitter.com/matthewtgmreal" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com/matthewtgm_yt" target="_blank">Instagram</a></li>
+
+            <!-- Supporter Channels -->
+            <li><a href="https://patreon.com/matthewtgm" target="_blank">Patreon</a></li>
+            <li><a href="https://discord.gg/xfqFzDP" target="_blank">Discord</a></li>
+
+            <!-- Other -->
+            <li><a href="/extras">Files</a></li>
+
+        </ul>
+
+    </div>
+    
+    <!-- Header Section -->
+    <div class="splash">
+
+        <h1>MatthewTGM</h1>
+        <sub>Programmer, Gamer, 'Influencer'</sub>
+
+        <div class="cta">
+
+            <a class="button" href="#projects">Projects</a>
+            <a class="button" href="#videos">Videos</a>
+
+        </div>
+
+    </div>
+
+    <!-- About Me -->
+    <div class="container">
+
+        <div class="meta">
+            <h1>About Me</h1>
+            <sub>Who I am and what I do</sub>
+        </div>
+
+
+        <p class="text">
+
+            Matthew of MatthewTGM is an infuencer, programmer and hardcore gamer.<br>
+            He frequently makes content on his YouTube and Twitch channels, for his ammassed tens of fans, about the sandbox voxel game 'Minecraft'.<br>
+            He also makes content, however less frequently, about other games in genres such as Indie horror and FPS.<br>
+            His passion is to make interesting and engaging content for his small but dedicated fan.<br>
+
+        </p>
+
+
+    </div>
+
+    <!-- Video Showcase -->
+    <div class="container" id="videos">
+
+        <div class="meta">
+            <h1>Videos</h1>
+            <sub>A collection of high quality content</sub>
+        </div>
+
+        <div class="media">
+
+            <iframe src="https://www.youtube.com/embed/4shQ0LmBtMs" frameborder="0"></iframe>
+
+            <div class="text">
+            
+                <h1>Gopine Client Devlog</h1>
+                <p>
+                    This is unlike my usual videos, this is a devlog for my new Minecraft PvP client!
+                    This client has been a dream of mine for awhile and I and my dev team and all the contributors have been hard at work to make this as it is currently.
+                    It is nowhere close to being finished.
+                    I must also state that the Hypixel forum thread has absolutely blown up
+                    and that the client Discord server is always open!
+                    You can find all client features and planned features in the Discord server!
+                </p>
+    
+            </div>
+
+        </div>
+
+        <div class="media">
+
+            <iframe src="https://www.youtube.com/embed/m4_bFvsplww" frameborder="0"></iframe>
+
+            <div class="text">
+            
+                <h1>Discord.js Bot Tutorial — Episode 1</h1>
+                <p>
+                    The beginning of my Discord.js bot tutorial series. <br>
+                    We cover: <br>
+                    • Setting up your workspace<br>
+                    • Events<br>
+                    • Basic command system<br>
+                </p>
+    
+            </div>
+
+        </div>
+
+        <div class="media">
+
+            <iframe src="https://www.youtube.com/embed/5DQidvvFk-0" frameborder="0"></iframe>
+
+            <div class="text">
+            
+                <h1>Patronus Potato Pack Demo</h1>
+                <p>
+                    Showing off the greatest FPS pack I've ever used. <br>
+                    <a href="/extras#patronus">Download pack</a>
+                </p>
+    
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Project Showcase -->
+    <div class="container">
+
+        <div class="meta">
+            <h1>Projects</h1>
+            <sub>What I'm currently working on</sub>
+        </div>
+
+        <div id="projects" class="projects"></div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <sub>© tascord, MatthewTGM 2020 | Designed and built by tascord</sub>
+        <div class="themes">
+
+            <li><button onclick="apply_theme('tas')"   class="theme tas"   >tas</button></li>
+            <li><button onclick="apply_theme('baw')"   class="theme baw"   >black</button></li>
+            <li><button onclick="apply_theme('blue')"  class="theme blue"  >blue</button></li>
+            <li><button onclick="apply_theme('green')" class="theme green" >green</button></li>
+            <li><button onclick="apply_theme('red')"   class="theme red"   >red</button></li>
+
+        </div>
+
+    </footer>
+
+    <!-- Best script AU -->
+    <script src="/p/scripts/tgm.js"></script>
+    
+    <!-- While body loading scripts -->
+    <script>
+        
+        // Load the user's previous theme
+        load_theme();
+
+        // Smooth scrolling to anchor link destination
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000
+        });
+
+        // Load projects
+        const projects = JSON.parse(`<%- projects %>`);
+        create_projects(projects);
+
+    </script>
+
+</body>
+</html>

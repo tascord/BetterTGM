@@ -1,0 +1,243 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,600&display=swap');
+
+// Default elements
+body {
+
+    // Colour schemes
+    &.red {
+
+        --dark  : #250216;
+        --mid   : #a15266;
+        --light : #ebabbb;
+
+    }
+
+    &.green {
+
+        --dark  : #022502;
+        --mid   : #52a156;
+        --light : #b0ebab;
+
+    }
+
+    &.blue {
+
+        --dark  : #021425;
+        --mid   : #527da1;
+        --light : #abceeb;
+
+    }
+
+    &.baw {
+
+        --dark  : #000000;
+        --mid   : #afafaf;
+        --light : #ffffff;
+
+    }
+
+    &.tas {
+
+        --dark  : #0c0c0c;
+        --mid   : #ff006a;
+        --light : #ffffff;
+
+    }
+
+    // Default to the custom font
+    * { font-family: 'Nunito', sans-serif; }
+
+    // Fully fit screen
+    width: 100vw;
+    height: 100vh;
+
+    // Disable default padding & margins
+    padding: 0;
+    margin: 0;
+
+    // Disable X axis scroolbar
+    overflow-x: hidden;
+
+    // Background
+    background-color: var(--dark);
+
+    // Remove default anchor link styling
+    a {
+
+        // Font
+        color: var(--mid);
+        font-style: italic;
+        text-decoration: none;
+
+        // Hover transition
+        transition: color 0.15s ease-in-out;
+        &:hover { color: var(--light); }
+
+    }
+
+    // Stylize buttons
+    button, .button {
+    
+        // Colours
+        color: var(--light);
+        background: none;
+
+        // Mouse cursor
+        cursor: pointer;
+    
+        // Remove default border & outline
+        outline: none;
+        border: none;
+    
+        // Add underline border
+        border-bottom: 2px solid var(--mid);
+    
+        // Change border colour on hover & click
+        transition: border 0.15s ease-in-out;
+        &:hover, &:active {
+            border-color: var(--light);
+        }
+
+    }
+    
+
+}
+
+// Navigation bar
+.navigation {
+
+    // Full width
+    width: 100%;
+
+    // Stick to top of the site
+    position: sticky;
+
+    // Arrangement
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    // Logo & Logo text
+    .logo {
+
+        // Arrangement
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+
+        // Text
+        h2, h2 > a {
+
+            font-size: 4vmin;
+            font-weight: lighter;
+            font-style: normal;
+
+            margin-left: 2vmin;
+            color: white;
+
+        }
+        
+        // Image
+        img {
+            
+            width: 5vmin;
+            height: 5vmin;
+
+        }
+
+    }
+
+    // Links
+    .links {
+        
+        // Arrangement
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        // Remove '•' from the list items
+        list-style: none;
+
+        // Remove default padding
+        padding: 0;
+
+        // Flex width in .navigation
+        flex: 0.7;
+        
+        // Font
+        font-size: 2vmin;
+
+    }    
+
+
+}
+
+// Footer
+footer {
+
+    // Positioning
+    position: absolute;
+
+    // Scale to fit page
+    width: 100%;
+
+    // Spacing
+    // margin-top: 4vmin;
+    margin-bottom: 2vmin;
+
+    // Arrangement
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    // Copyright disclaimer
+    sub {
+
+        // Font
+        font-size: 1.5vmin;
+        color: var(--light);
+
+    }
+
+    // Theme selector buttons container
+    .themes {
+
+        // Arrangement
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        // Spacing
+        flex: 0.5;
+
+        // Remove list '•' from beginning
+        list-style: none;
+
+        // Theme selector buttons
+        .theme {
+        
+            // // Spacing
+            // margin-left: 5%;
+            
+            // Font
+            font-size: 1.5vmin;
+
+            // Colour based on buttons theme
+            &.tas   { color: #ff006a; border-color: #ff006a; }
+            &.baw   { color: #afafaf; border-color: #afafaf; }
+            &.red   { color: #a15266; border-color: #a15266; }
+            &.green { color: #52a156; border-color: #52a156; }
+            &.blue  { color: #527da1; border-color: #527da1; }
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,318 @@
+@import './main.scss';
+
+// Banner
+.splash {
+
+    // Sizing
+    height: 50vmin;
+
+    // Arrangement
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // Header
+    h1 {
+
+        // Font
+        color: var(--light);
+        font-size: 7vmin;
+        
+        // Spacing
+        margin: 0;
+
+    }
+
+    // Tagline
+    sub {
+
+        // Font
+        color: var(--mid);
+        font-size: 2vmin;
+        font-style: italic;
+        font-weight: lighter;
+
+        // Transparency
+        opacity: 0.5;
+
+        // Spacing
+        margin: 0;
+
+    }
+
+    // Call to action
+    .cta {
+
+        // Breathing room
+        margin-top: 3vmin;
+
+        // Arrangement
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        // Scaling
+        width: 30%;
+
+        // Buttons
+        button, .button {
+
+            font-size: 3vmin;
+            font-style: normal;
+
+        }
+
+    }
+
+
+}
+
+// Video and image showcase
+.media {
+
+    // Arrangement
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    // Scale to size
+    height: 40%;
+    width: 100%;
+
+    // Spacing
+    margin-bottom: 2.5%;
+    
+    // YouTube Embed / Image
+    iframe, img {
+        
+        // Hide on smaller screens
+        @media only screen and (max-width: 800px) { display: none; }
+        
+        // Sizing
+        width: 50%;
+        height: 30vmin;
+        flex: 0.45;
+
+        &.square {
+            width: 30vmin;
+            flex: 0.2;
+        }
+        
+    }
+    
+    // Text
+    .text {
+        
+        // Increase Text Size On Smaller Screens
+        @media only screen and (max-width: 800px) { flex: 0.8; }
+        
+        // Scaling
+        width: 40%;
+        flex: 0.4;
+
+        // Heading
+        h1 {
+            
+            // Font
+            color: var(--light);
+            font-weight: bold;
+            font-size: 4vmin;
+
+        }
+
+        // Text content
+        p {
+
+            // Font
+            color: var(--mid);
+            font-size: 1.75vmin;
+
+        }
+
+    }
+
+}
+
+// Project showcase
+.projects {
+
+    // Sizing
+    width: 100%;
+
+    // Remove default spacing
+    margin: 0;
+    padding: 0;
+
+    // Arrangement
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(55vmin + 5vmin, 1fr));
+    justify-items: center;
+
+    // Projects held within
+    .project {
+    
+        // Arrangement
+        display: flex;
+        flex-direction: column;
+
+        // Sizing
+        width: 80vw;
+        max-width: 55vmin;
+        max-height: fit-content;
+
+        // Spacing
+        padding: 1.5%;
+        margin: 1.5% 0;
+
+        // Project title
+        h1 {
+            
+            // Spacing
+            margin-top: 0%;
+
+            // Font
+            font-size: 3vmin;
+            color: var(--light);
+
+        }
+
+        // Project description
+        p  {
+            
+            // Remove default spacing
+            margin: 0%;
+
+            // Sizing
+            flex-grow: 1;
+
+            // Font
+            font-size: 2vmin;
+            color: var(--mid);
+        }
+        
+        // Links (not the i element)
+        .links a {
+
+            // Fade in colour changed
+            i { transition: color 0.15s ease-in-out; }
+
+            // On hover, change colour
+            &.ic:hover > i { color: var(--light); }
+
+            // Icons on the right of the project box
+            float: right;
+
+            // Spacing
+            margin-left: 2.5%;
+
+            // Font
+            font-size: 2vmin;
+
+        }
+    
+    }
+
+}
+
+// Containers
+.container {
+
+    // Sizing
+    width: 90%;
+
+    // Arrangement
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Meta Text
+    .meta {
+
+        // Sizing
+        width: 100%;
+
+        // Arrangement
+        display: flex;
+        flex-direction: column;
+       
+        // Spacing
+        padding-left: 2.5%;
+        margin-left: 10%;
+        margin-bottom: 2.5%;
+
+        // Stylized borders
+        border: none;
+        border-left: 2px solid var(--mid);
+
+        // Heading
+        h1 {
+            
+            // Font
+            color: var(--light);
+            font-weight: bold;
+            font-size: 4vmin;
+
+            // Spacing
+            margin: 0;
+
+        }
+
+        // Subtitle
+        sub {
+
+            // Font
+            color: var(--mid);
+            font-size: 1.75vmin;
+
+            // Spacing
+            margin: 0;
+
+        }
+
+        // Links
+        a {
+
+            // Scaling
+            width: 5%;
+            
+            // Spacing
+            margin-top: 0.5%;
+
+            // Font
+            text-align: center;
+
+            // Border
+            border-bottom: 2px solid var(--mid);
+    
+            // Change border colour on hover & click
+            transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+            &:hover, &:active {
+                border-color: var(--light);
+            }
+
+        }
+
+    }
+
+    // Text blocks
+    .text {
+
+        // Font
+        font-size: 2.25vmin;
+        color: var(--light);
+
+        // Arrangement
+        align-self: flex-start;
+
+        // Spacing
+        margin-left: 6.5%;
+        margin-bottom: 4%;
+        
+
+    }
+
+}

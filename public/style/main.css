@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,600&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--dark);
+}
+
+body.red {
+  --dark: #250216;
+  --mid: #a15266;
+  --light: #ebabbb;
+}
+
+body.green {
+  --dark: #022502;
+  --mid: #52a156;
+  --light: #b0ebab;
+}
+
+body.blue {
+  --dark: #021425;
+  --mid: #527da1;
+  --light: #abceeb;
+}
+
+body.baw {
+  --dark: #000000;
+  --mid: #afafaf;
+  --light: #ffffff;
+}
+
+body.tas {
+  --dark: #0c0c0c;
+  --mid: #ff006a;
+  --light: #ffffff;
+}
+
+body * {
+  font-family: 'Nunito', sans-serif;
+}
+
+body a {
+  color: var(--mid);
+  font-style: italic;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+body a:hover {
+  color: var(--light);
+}
+
+body button, body .button {
+  color: var(--light);
+  background: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--mid);
+  -webkit-transition: border 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out;
+}
+
+body button:hover, body button:active, body .button:hover, body .button:active {
+  border-color: var(--light);
+}
+
+.navigation {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navigation .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.navigation .logo h2, .navigation .logo h2 > a {
+  font-size: 4vmin;
+  font-weight: lighter;
+  font-style: normal;
+  margin-left: 2vmin;
+  color: white;
+}
+
+.navigation .logo img {
+  width: 5vmin;
+  height: 5vmin;
+}
+
+.navigation .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  -webkit-box-flex: 0.7;
+      -ms-flex: 0.7;
+          flex: 0.7;
+  font-size: 2vmin;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 2vmin;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer sub {
+  font-size: 1.5vmin;
+  color: var(--light);
+}
+
+footer .themes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  list-style: none;
+}
+
+footer .themes .theme {
+  font-size: 1.5vmin;
+}
+
+footer .themes .theme.tas {
+  color: #ff006a;
+  border-color: #ff006a;
+}
+
+footer .themes .theme.baw {
+  color: #afafaf;
+  border-color: #afafaf;
+}
+
+footer .themes .theme.red {
+  color: #a15266;
+  border-color: #a15266;
+}
+
+footer .themes .theme.green {
+  color: #52a156;
+  border-color: #52a156;
+}
+
+footer .themes .theme.blue {
+  color: #527da1;
+  border-color: #527da1;
+}
+/*# sourceMappingURL=main.css.map */
