@@ -4,4 +4,4 @@ A more modern approach to [MatthewTGM's website](https://matthewtgm.ga/). [\[Arc
 Feel free to check it out at [tgm.digital](http://tgm.digital/)
 
 ### License
-This work is licensed under the [Mozilla Public License 2.0](/LICENSE.MD).
+This work is licensed under the [Mozilla Public License 2.0](/LICENSE.md).
